@@ -67,26 +67,26 @@
 
         if (isset($_GET["eerst"]) && isset($_GET["tweets"])) {  
             switch ($_GET["operator"]) {
-                case 'plus':
-                    $uitkomst = $_GET["eerst"] + $_GET["tweets"];
-                    echo $uitkomst;
-                    break;
-                case 'min':
-                    $uitkomst = $_GET["eerst"] - $_GET["tweets"];
-                    echo $uitkomst;
-                    break;
-                case 'keer':
-                    $uitkomst = $_GET["eerst"] * $_GET["tweets"];
-                    echo $uitkomst;
-                    break;
-                case 'deel':
-                    $uitkomst = $_GET["eerst"] / $_GET["tweets"];
-                    echo $uitkomst;
-                    break;
-                case 'modulus':
-                    $uitkomst = $_GET["eerst"] % $_GET["tweets"];
-                    echo $uitkomst;
-                    break;
+            case 'plus':
+                $uitkomst = $_GET["eerst"] + $_GET["tweets"];
+                echo $uitkomst;
+                break;
+            case 'min':
+                $uitkomst = $_GET["eerst"] - $_GET["tweets"];
+                echo $uitkomst;
+                break;
+            case 'keer':
+                $uitkomst = $_GET["eerst"] * $_GET["tweets"];
+                echo $uitkomst;
+                break;
+            case 'deel':
+                $uitkomst = $_GET["eerst"] / $_GET["tweets"];
+                echo $uitkomst;
+                break;
+            case 'modulus':
+                $uitkomst = $_GET["eerst"] % $_GET["tweets"];
+                echo $uitkomst;
+                break;
             }
         }
         
